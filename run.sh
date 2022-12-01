@@ -33,8 +33,8 @@ do
     echo "Running Test $filename -------------------------------------"
     echo "$filelist"
     ############################## Choose any option you want ##############################
-    #java -jar Mars.jar sort.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
-    spim -f sort.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
+    #java -jar Mars.jar hanoi.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
+    spim -f hanoi.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
     ########################################################################################
     if [[ $? -eq 0 ]]; then
         echo "Code Executed Successfuly!"

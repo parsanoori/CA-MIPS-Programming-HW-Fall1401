@@ -1,43 +1,37 @@
-## A sorting algorithm implementation in MIPS
+## Implement Hanoi tower's problem's solution 
 
-Implement a sorting algorithm algorithm in the `sort.asm` file.  
-
-***Attention***: Implementing any an algorithm with $\theta(n \log n)$ runtime would have extra points.  
+Implement Hanoi Tower's problem's solution in the `hanoi.asm` file using MIPS assembly.  
 
 ## Function
 
-It simply sort an array.
+Solves the Hanoi tower's problem.  
 
 
 ### Input
 
-In the first line, the count of the numbers to sort, n, is given.   
-In the next n lines the elements of the array are given.
+In the only line of the input, $n$ the number of disks on rod A will be given.  
 
 
 ### Output
 
-In each line of the output print each element of the ascending sorted array.
+Print the steps required to solve the problem.  
 
 ### Input Example 1
 
 ```
-5
-1
-5
 3
-4
-2
 ```
 
 ### Output Example 2
 
 ```
-1
-2
-3
-4
-5
+A->C
+A->B
+C->B
+A->C
+B->A
+B->C
+A->C
 ```
 
 
@@ -51,6 +45,6 @@ Take a look at lines 36 and 37 of the `run.sh`. Here by commenting out each line
 1. Use `spim` as the assembler. This way tests are run more quick but some syscalls are not available. By using this way you have to have `spim` installed.
 2. Use `mars` as the assembler. This way tests are run slower but more syscalls are available (like random). By using this you have to have `java` installed.
 
-To make sure that the script works fine, change the `sort.asm` in line 35 of `run.sh` to `bubblesort.asm` and run the script.
+To make sure that the script works fine, checkout the sort branch.  
 
 ***Finally***: Have fun and do not cheat.

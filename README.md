@@ -51,6 +51,6 @@ Take a look at lines 36 and 37 of the `run.sh`. Here by commenting out each line
 1. Use `spim` as the assembler. This way tests are run more quick but some syscalls are not available. By using this way you have to have `spim` installed.
 2. Use `mars` as the assembler. This way tests are run slower but more syscalls are available (like random). By using this you have to have `java` installed.
 
-To make sure that the script works fine, change the `quicksort.asm` in line 35 of `run.sh` to `mergesort.asm` and run the script.
+To make sure that the script works fine, change the `sort.asm` in line 35 of `run.sh` to `bubblesort.asm` and run the script.
 
 ***Finally***: Have fun and do not cheat.

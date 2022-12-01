@@ -1,37 +1,42 @@
-## Implement Hanoi tower's problem's solution 
+## Implement a perfect number detector  
 
-Implement Hanoi Tower's problem's solution in the `hanoi.asm` file using MIPS assembly.  
+Implement a perfect number detector in the file `perfect.asm` using MIPS assembly.  
+A perfect number is a number which equals all of its non equal divisors.  
 
 ## Function
 
-Solves the Hanoi tower's problem.  
+Identify perfect number.  
 
 
 ### Input
 
-In the only line of the input, $n$ the number of disks on rod A will be given.  
+In the only line of the input, $n$ the number to check whether it is perfect or not is given.  
 
 
 ### Output
 
-Print the steps required to solve the problem.  
+Print either `YES` or `NO`.  
 
 ### Input Example 1
 
 ```
-3
+28
+```
+
+### Output Example 1
+
+```
+YES
+```
+
+### Input Example 2
+```
+96
 ```
 
 ### Output Example 2
-
 ```
-A->C
-A->B
-C->B
-A->C
-B->A
-B->C
-A->C
+NO
 ```
 
 

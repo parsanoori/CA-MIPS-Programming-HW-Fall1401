@@ -7,7 +7,7 @@ This is the computer architecture's home-work of Computer Engineering campus of 
 Each question has its own branch. Consider checking them out to access them.  
 Tests reside in the `tests` folder of each branch.  
 
-*** Checkout other branches for questions ***
+***Checkout other branches for questions***
 
 ## What to do?
 Please read the `README.md` of each branch completely.  

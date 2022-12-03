@@ -2,7 +2,7 @@
 
 Implement a sorting algorithm algorithm in the `sort.asm` file.  
 
-***Attention***: Implementing any an algorithm with $\theta(n \log n)$ runtime would have extra points.  
+***Attention***: Implementing any an algorithm with $\theta(n \log n)$ runtime would ***not*** have extra points.  
 
 ## Function
 

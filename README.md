@@ -22,7 +22,7 @@ You have to upload a zip file containing the following structure:
 '''''''''''''''''''''''''''''''''''''''''''''''''''''
 '' tests/*       '' tests/*       '' tests/*       ''
 '' README.md     '' README.md     '' README.md     ''
-'' perfnum.asm   '' sort.asm      '' hanoi.asm     ''
+'' perfect.asm   '' sort.asm      '' hanoi.asm     ''
 '' .             '' .             '' .             ''
 '' .             '' .             '' .             ''
 '' .             '' .             '' .             ''
